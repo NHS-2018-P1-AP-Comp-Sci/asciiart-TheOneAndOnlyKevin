@@ -29,7 +29,7 @@ public class ASCIIArt {
 		System.out.println("  /  /\\           /\\  \\");
 		System.out.println("  \\  \\|           |/  /");
 		System.out.println("___\\__|___________|__/________");
-		beePBooP ();
+		beepBooP ();
 		System.out.println("In my defense I'm not trying to be rude, the only reason Mr. Rasmussen has a long neck is because I needed to follow the rubric.");
 	}
 	public static void hair () {
