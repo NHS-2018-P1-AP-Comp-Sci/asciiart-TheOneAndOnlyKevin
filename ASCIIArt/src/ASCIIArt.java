@@ -13,5 +13,49 @@
  * @author Mr. Rasmussen 
  *
  */
-
-// YOUR CODE GOES HERE :)
+public class ASCIIArt {
+	public static void main (String [] args) {
+		hair () ;
+		System.out.println("       |  O   O  |       /                   \\");
+		System.out.println("       ||   d   ||      /Hi, I'm Mr. Rasmussen\\");
+		System.out.println("       \\\\\\W^^^W///-----/and I think Kevin Jiang\\");
+		System.out.println("        \\\\w M w//      \\should get a A++       /");
+		System.out.println("         \\\\WwW//        \\                     /");
+		System.out.println("          |   |          \\___________________/");
+		longNeck ();
+		System.out.println("     ____/|\\ /|\\____");
+		System.out.println("    /    \\\\ _ //    \\");
+		System.out.println("   /      \\/ \\/      \\");
+		System.out.println("  /  /\\           /\\  \\");
+		System.out.println("  \\  \\|           |/  /");
+		System.out.println("___\\__|___________|__/________");
+		beePBooP ();
+		System.out.println("In my defense I'm not trying to be rude, the only reason Mr. Rasmussen has a long neck is because I needed to follow the rubric.");
+	}
+	public static void hair () {
+		System.out.println("         mMMMMMm  <-hair is tied back");
+		System.out.println("       mMMMMMMMMMm");
+		System.out.println("       |MMMMMMMMM|        ___________________");
+	}
+	public static void neck () {
+	System.out.println("          |   |");
+}
+	public static void longNeck() {
+		neck ();
+		neck ();
+		neck ();
+		neck ();
+		neck ();
+		neck ();
+}
+	public static void beepBoop () {
+		System.out.println("Beep boop beep boop");
+	}
+	public static void beepBooP () {
+		beepBoop ();
+		beepBoop ();
+		beepBoop ();
+		beepBoop ();
+		beepBoop ();
+	}
+}
